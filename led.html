@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>INSTALACIONES ELECTRICAS</title>
+	    <!-- Latest compiled and minified CSS - add here as needed -->
+	</head>
+	<body background="https://vod-hogarmania.atresmedia.com/hogarmania/images/images01/2014/10/22/5c0013265a2c11000177534e/1239x697.jpg">
+	    <!-- HTML to display MQTT topic values ------------------------------------------------->
+		<center><h1><div><strong>INVERNADERO VIRTUAL</strong></div><br></h1></center>
+        
+        <h5>Mediante este SERVIDOR podremos visualizar las mediciones de los sensores colocados en la simulacion de motor de juego Unity los valores de Temperatura y de Humedad del INVERNADERO.</h5>
+        <h2>Autores</h2>
+
+<ul>
+  <li>Jorge Luis Brito</li>
+  <li>Paul Maldonado</li>
+  <li>Mauricio Pilatuña</li>
+  <li>Hector Segura</li>
+</ul>  
+        
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<button id="led_on" onclick="ledon()">INICIO</button>
+		
+		
+		
+		<h1>Sensor de Temperatura</h1>
+		<h1 id="sensor_i">0</h1>
+		
+		<h1>Sensor de Humedad</h1>
+		<h1 id="sensor_p">0</h1>
+		
+		
+		<!-- mosquitto MQTT -------------------------------------------------------------------->
+		
+		<!-- jQuery ---------------------------------------------------------------------------->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- Custom MQTT client for this example ----------------------------------------------->
+		
+	
+	</body>
+</html>
